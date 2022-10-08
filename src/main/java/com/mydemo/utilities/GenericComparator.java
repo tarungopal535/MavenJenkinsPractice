@@ -49,6 +49,7 @@ public class GenericComparator implements Comparator, Serializable {
 	 */
 
 	public GenericComparator(boolean sortAscending) {
+		// calling super constructor
 		super();
 		this.targetMethod = null;
 		this.sortAscending = sortAscending;
